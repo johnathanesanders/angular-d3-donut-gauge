@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+.card {
+  align-content: flex-start;
+  align-items: flex-start;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 rgba(40, 40, 40, .3);
+  display: flex;
+  flex: 0 0a 300px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 8px;
+  padding: 16px;
+  position: relative;
+  width: 300px;
+}
+
+.card-content {
+  height: 100%;
+  width: 100%;
+}
+
+.chart-label {
+  color: rgba(120,120,120,.4);
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.chart-title {
+  color: rgba(40,40,40,.8);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0px 0px 8px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.chart-wrapper {
+  min-height: 300px;
+  min-width: 300px;
+  width: 300px;
+}
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
